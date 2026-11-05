@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 160" fill="none" stroke="#1f1d18" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Replaceable sketch slot for the Key Takeaways slide: swap this file (kt-sketch.svg) for any drawing of the same name. -->
+  <!-- stand -->
+  <path d="M130 52 L129 138" stroke-width="5"/>
+  <path d="M104 140 Q130 133 157 141" stroke-width="5"/>
+  <path d="M124 48 L130 40 L136 49" stroke-width="4"/>
+  <!-- beam, level: calibrated -->
+  <path d="M46 52 Q90 49 130 51 Q172 53 214 50" stroke-width="5"/>
+  <!-- left pan strings + pan -->
+  <path d="M48 53 L30 96 M48 53 L68 96" stroke-width="2.5"/>
+  <path d="M24 97 Q48 112 74 97" stroke-width="4.5"/>
+  <!-- right pan strings + pan -->
+  <path d="M212 51 L193 95 M212 51 L232 95" stroke-width="2.5"/>
+  <path d="M187 96 Q211 111 238 96" stroke-width="4.5"/>
+  <!-- person on left pan -->
+  <circle cx="48" cy="72" r="6.5" stroke-width="3.5"/>
+  <path d="M48 79 L48 92 M41 85 Q48 82 56 86" stroke-width="3.5"/>
+  <!-- robot on right pan -->
+  <rect x="200" y="74" width="22" height="17" rx="5" stroke-width="3.5"/>
+  <path d="M211 74 L211 67" stroke-width="3"/>
+  <circle cx="211" cy="65" r="2.2" fill="#1f1d18" stroke="none"/>
+  <circle cx="206" cy="82" r="1.8" fill="#1f1d18" stroke="none"/>
+  <circle cx="216" cy="82" r="1.8" fill="#1f1d18" stroke="none"/>
+  <!-- spark of balance -->
+  <path d="M130 22 L130 30 M118 26 L122 32 M142 26 L138 32" stroke-width="3" stroke="#c79006"/>
+</svg>

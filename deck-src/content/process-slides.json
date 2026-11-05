@@ -1,0 +1,327 @@
+{
+  "_readme": "Content for the five process slides (deck slides 14-18). Edit text here, then run: python3 deck-src/build.py. pins: attribute number -> {el: id of the element in the screen HTML, t: tooltip title, b: tooltip body}. Process 1 pins are grouped per role tab. captions: line shown above the screen for each state (processes 2-5).",
+  "processes": [
+    {
+      "n": 1,
+      "title_for_alt": "Define AI’s role",
+      "sketch": "sketch-step1-define-role.jpg",
+      "attributes": [
+        {
+          "title": "Explain it at first use",
+          "principles": "Capability · Honesty"
+        },
+        {
+          "title": "Use a familiar pattern",
+          "principles": "Care · Information & Respect"
+        },
+        {
+          "title": "Start with useful defaults",
+          "principles": "Capability · Care"
+        },
+        {
+          "title": "Show the well-lit path",
+          "principles": "Capability · Human Control"
+        }
+      ],
+      "speaker_notes": "Define the role. One product can be an assistant, a coach and a collaborator — as long as each one is obvious. Four things make the role obvious. It explains itself at first use. It uses a pattern people already know — a big search box. It starts with useful defaults, so there is no blank box. And it shows the well-lit path: each customer and each device comes with its guided next actions, and the person chooses to take them.",
+      "screens": "screens/p1.html",
+      "mode": "roles",
+      "roles": [
+        {
+          "id": "assistant",
+          "label": "Assistant",
+          "icon": "role-assistant.png"
+        },
+        {
+          "id": "coach",
+          "label": "Coach",
+          "icon": "role-coach.png"
+        },
+        {
+          "id": "collaborator",
+          "label": "Collaborator",
+          "icon": "role-collaborator.png"
+        }
+      ],
+      "pins": {
+        "assistant": {
+          "1": {
+            "el": "a-hello",
+            "t": "It says what it is",
+            "b": "Before any work starts, it says what you can ask and how it helps, in plain language."
+          },
+          "2": {
+            "el": "a-ask",
+            "t": "Big agentic search",
+            "b": "A search box everyone knows. Ask in your own words; chips show which sources it reads."
+          },
+          "3": {
+            "el": "a-prompts",
+            "t": "Pre-curated prompts",
+            "b": "Useful questions are ready below the ask box, so there is never a blank start."
+          }
+        },
+        "coach": {
+          "1": {
+            "el": "c-card",
+            "t": "It speaks where you work",
+            "b": "The coach opens on the customer you are looking at, with the AI mark, and talks about that customer only."
+          },
+          "2": {
+            "el": "c-head",
+            "t": "A card people know",
+            "b": "Name and total agreements first: the same customer card people already use."
+          },
+          "3": {
+            "el": "c-tip",
+            "t": "Guidance, ready",
+            "b": "An AI summary is already on the card, so there is no blank start."
+          },
+          "4": {
+            "el": "c-btns",
+            "t": "Guided next steps",
+            "b": "Each customer comes with its AI actions ready. The coach points to the right next step, and you choose to take it."
+          }
+        },
+        "collaborator": {
+          "1": {
+            "el": "k-agents",
+            "t": "It says who is working",
+            "b": "Three agents are shown up front: discovery, site and contract. Each owns one part of the job."
+          },
+          "2": {
+            "el": "k-stats",
+            "t": "A familiar strip",
+            "b": "Counts first, like any dashboard: devices, sites, contracts. Nothing new to learn."
+          },
+          "3": {
+            "el": "k-sum",
+            "t": "The big picture first",
+            "b": "The first answer is a ready summary: what was found, split into ready, needs review and blocked."
+          },
+          "4": {
+            "el": "k-list",
+            "t": "The next step is ready",
+            "b": "Every device arrives with its actions: approve or edit. The path forward is lit, and the person takes it."
+          }
+        }
+      }
+    },
+    {
+      "n": 2,
+      "title_for_alt": "Expose capabilities & limits",
+      "sketch": "sketch-step2-capabilities-limits.jpg",
+      "attributes": [
+        {
+          "title": "Reduce uncertainty",
+          "principles": "Honesty · Appropriate Confidence"
+        },
+        {
+          "title": "Offer a low-stakes try",
+          "principles": "Human Control · Care"
+        },
+        {
+          "title": "Ask for permissions early",
+          "principles": "Information & Respect · Human Control"
+        },
+        {
+          "title": "Explain only what matters",
+          "principles": "Explainability · Care"
+        }
+      ],
+      "speaker_notes": "Expose capabilities and limits. It shows how it decided and how sure it is, and says it can make mistakes. It lets you start with one device instead of all 790. It asks before it reads your data, and says why. And it explains only what affects the decision: three checks, one result.",
+      "screens": "screens/p2.html",
+      "mode": "states",
+      "pins": {
+        "1": {
+          "el": "p2-how",
+          "t": "How it decided, how sure it is",
+          "b": "Sources it evaluated, a short summary, its confidence as a gauge, and the three reasons behind the match."
+        },
+        "2": {
+          "el": "p2-one",
+          "t": "Start small",
+          "b": "Each device has its own approve. Nobody has to say yes to all 790 at once."
+        },
+        "3": {
+          "el": "p2-perm",
+          "t": "It asks before it reads",
+          "b": "It names the data and says why it needs each one. Allow, choose the data, or not now."
+        },
+        "4": {
+          "el": "p2-checks",
+          "t": "Three checks, one result",
+          "b": "Site, coverage, contract. No model details, only what is needed to decide."
+        }
+      },
+      "captions": {
+        "1": "Quick action: how it decided, and how sure it is.",
+        "2": "Review: try it on one device before all.",
+        "3": "Before it starts, it asks for your OK.",
+        "4": "Result: only what affects the decision."
+      }
+    },
+    {
+      "n": 3,
+      "title_for_alt": "Choose trust principles",
+      "sketch": "sketch-step3-choose-principles.jpg",
+      "attributes": [
+        {
+          "title": "Show the source",
+          "principles": "Honesty · Explainability"
+        },
+        {
+          "title": "Support verification",
+          "principles": "Capability · Explainability"
+        },
+        {
+          "title": "Give real control",
+          "principles": "Human Control · Recovery"
+        },
+        {
+          "title": "Add outside proof",
+          "principles": "Information & Respect · Appropriate Confidence"
+        }
+      ],
+      "speaker_notes": "Choose trust principles. For this product: transparency, control and proof. Before any summary it lists the six sources it fetched. Every number opens into the devices behind it. Nothing changes until a person approves. And the customer file is marked as an outside source.",
+      "screens": "screens/p3.html",
+      "mode": "states",
+      "pins": {
+        "1": {
+          "el": "p3-src",
+          "t": "It shows where it looked",
+          "b": "Every source it fetched is listed before the summary, with what each one was used for."
+        },
+        "2": {
+          "el": "p3-see",
+          "t": "Check it yourself",
+          "b": "The details button opens the devices behind the number, so anyone can verify it."
+        },
+        "3": {
+          "el": "p3-ok",
+          "t": "You stay in control",
+          "b": "Approve or leave it. Nothing changes until a person says so."
+        },
+        "4": {
+          "el": "p3-out",
+          "t": "Proof from outside",
+          "b": "The customer file comes from outside the system, and it is marked that way."
+        }
+      },
+      "captions": {
+        "1": "It fetches the sources, then gives the summary.",
+        "2": "Every number can be checked.",
+        "3": "Nothing changes without a yes.",
+        "4": "Outside proof is labelled."
+      }
+    },
+    {
+      "n": 4,
+      "title_for_alt": "Localize behavior & tone",
+      "sketch": "sketch-step4-localize-behavior.jpg",
+      "attributes": [
+        {
+          "title": "Match the context",
+          "principles": "Expressiveness · Care"
+        },
+        {
+          "title": "Weigh stakes, complexity, cost",
+          "principles": "Appropriate Confidence · Reliability"
+        },
+        {
+          "title": "Tailor to user groups",
+          "principles": "Care · Expressiveness"
+        },
+        {
+          "title": "Introduce AI gradually",
+          "principles": "Human Control · Reliability"
+        }
+      ],
+      "speaker_notes": "Localize behavior and tone. One agent, three sites, three different recommendations — and the stakes at each site decide how strong the advice is and how much it explains. New people get meaning and guidance; experts get one line and a bulk action. And work moves across slowly: high touch, low touch, zero touch. Contracts stay with people.",
+      "screens": "screens/p4.html",
+      "mode": "states",
+      "pins": {
+        "1": {
+          "el": "p4-tiles",
+          "t": "Same request, different advice",
+          "b": "One agent, three clients. It looks at each site and how it runs, then recommends, with the reason beside it."
+        },
+        "2": {
+          "el": "p4-hi",
+          "t": "The site sets the stakes",
+          "b": "High stakes means more checks and more reasons. Low stakes gets one line and a quick action."
+        },
+        "3": {
+          "el": "p4-pair",
+          "t": "Different people, different help",
+          "b": "Someone new gets meaning and guidance. An expert gets one line and a bulk action."
+        },
+        "4": {
+          "el": "p4-ladder",
+          "t": "Start small, then widen",
+          "b": "Tasks move from you decide, to you confirm, to handled for you as trust grows. Contracts stay with people."
+        }
+      },
+      "captions": {
+        "1": "One agent, three clients, three answers.",
+        "2": "Stakes decide the depth.",
+        "3": "The same issue, explained two ways.",
+        "4": "Trust is earned one task at a time."
+      }
+    },
+    {
+      "n": 5,
+      "title_for_alt": "Measure both directions",
+      "sketch": "sketch-step5-measure-directions.jpg",
+      "attributes": [
+        {
+          "title": "Assess the impact of errors",
+          "principles": "Reliability · Appropriate Confidence"
+        },
+        {
+          "title": "Collect feedback",
+          "principles": "Appropriate Confidence · Human Control"
+        },
+        {
+          "title": "Admit errors openly",
+          "principles": "Honesty · Recovery"
+        },
+        {
+          "title": "Plan the recovery",
+          "principles": "Recovery · Human Control"
+        }
+      ],
+      "speaker_notes": "Measure both directions. Size the error first — five questions decide how loudly to warn. Let people say no, with a reason. When something fails, it admits it and marks the numbers as possibly old. Then it gives a way back, with a person in the path, and it learns.",
+      "screens": "screens/p5.html",
+      "mode": "states",
+      "pins": {
+        "1": {
+          "el": "p5-imp",
+          "t": "Size the error first",
+          "b": "Five questions decide how loudly to warn, and who needs to know."
+        },
+        "2": {
+          "el": "p5-fb",
+          "t": "Feedback with a reason",
+          "b": "A reason is required on a no, and people can ask for another match in the same step."
+        },
+        "3": {
+          "el": "p5-err",
+          "t": "It says what went wrong",
+          "b": "It admits the failure, and says the numbers may be old."
+        },
+        "4": {
+          "el": "p5-way",
+          "t": "A way back",
+          "b": "Retry, explain or call a person. It also learns, so the same failure is caught sooner."
+        }
+      },
+      "captions": {
+        "1": "How bad could this mistake be?",
+        "2": "Saying no, with a reason.",
+        "3": "Failure, said plainly.",
+        "4": "Retry and recovery."
+      }
+    }
+  ]
+}

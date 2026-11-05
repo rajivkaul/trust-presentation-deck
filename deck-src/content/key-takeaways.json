@@ -1,0 +1,56 @@
+{
+  "_readme": "Content for the Key Takeaways slide (last slide). Edit, then run: python3 deck-src/build.py. Images are files in the repo root; swap a file to change a picture without touching code.",
+  "title": "Key Takeaways",
+  "sketch_slot": {
+    "src": "kt-sketch.svg",
+    "alt": "Hand-drawn sketch: a person and an AI balanced on a level scale"
+  },
+  "quote": "Trust is designed, not declared.",
+  "byline": "Rajiv Kaul · Intelligaia",
+  "step_cards": [
+    {
+      "src": "kt-s1.jpg",
+      "alt": "Define AI's role",
+      "tilt_deg": -3
+    },
+    {
+      "src": "kt-s2.jpg",
+      "alt": "Expose capabilities and limits",
+      "tilt_deg": 2.5
+    },
+    {
+      "src": "kt-s3.jpg",
+      "alt": "Choose trust principles",
+      "tilt_deg": -2
+    },
+    {
+      "src": "kt-s4.jpg",
+      "alt": "Localize behavior and tone",
+      "tilt_deg": 3
+    },
+    {
+      "src": "kt-s5.jpg",
+      "alt": "Measure both directions",
+      "tilt_deg": -2.5
+    }
+  ],
+  "principles_heading": "Guiding principles",
+  "principles": [
+    "Capability",
+    "Reliability",
+    "Care",
+    "Honesty",
+    "Information & Respect",
+    "Appropriate Confidence",
+    "Human Control",
+    "Recovery",
+    "Explainability",
+    "Expressiveness"
+  ],
+  "cta": {
+    "title": "Start a trust review for your AI product",
+    "subtitle": "Talk to Intelligaia",
+    "url": "https://www.intelligaia.com/contact/"
+  },
+  "speaker_notes": "Key takeaways. On the left, the five steps we walked. On the right, the principles that back them. And in the middle, the one line to carry out of the room."
+}
