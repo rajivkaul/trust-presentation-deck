@@ -23,7 +23,7 @@
           "principles": "Capability · Human Control"
         }
       ],
-      "speaker_notes": "Define the role. One product can be an assistant, a coach and a collaborator — as long as each one is obvious. Four things make the role obvious. It explains itself at first use. It uses a pattern people already know — a big search box. It starts with useful defaults, so there is no blank box. And it shows the well-lit path: each customer and each device comes with its guided next actions, and the person chooses to take them.",
+      "speaker_notes": "Define the role. One product can be an assistant, a coach and a collaborator — as long as each one is obvious. Four things make the role obvious. It explains itself at first use. It uses a pattern people already know — a big search box. It starts with useful defaults, so there is no blank box. And it shows the well-lit path: every task arrives with its guided next actions, and the person chooses to take them.",
       "screens": "screens/p1.html",
       "mode": "roles",
       "roles": [
@@ -65,12 +65,12 @@
           "1": {
             "el": "c-card",
             "t": "It speaks where you work",
-            "b": "The coach opens on the customer you are looking at, with the AI mark, and talks about that customer only."
+            "b": "The coach opens on the record you are looking at, with the AI mark, and talks about that record only."
           },
           "2": {
             "el": "c-head",
             "t": "A card people know",
-            "b": "Name and total agreements first: the same customer card people already use."
+            "b": "Name and status first: the same summary card people already use."
           },
           "3": {
             "el": "c-tip",
@@ -80,19 +80,19 @@
           "4": {
             "el": "c-btns",
             "t": "Guided next steps",
-            "b": "Each customer comes with its AI actions ready. The coach points to the right next step, and you choose to take it."
+            "b": "Each task comes with its AI actions ready. The coach points to the right next step, and you choose to take it."
           }
         },
         "collaborator": {
           "1": {
             "el": "k-agents",
             "t": "It says who is working",
-            "b": "Three agents are shown up front: discovery, site and contract. Each owns one part of the job."
+            "b": "Three agents are shown up front, and each owns one part of the job."
           },
           "2": {
             "el": "k-stats",
             "t": "A familiar strip",
-            "b": "Counts first, like any dashboard: devices, sites, contracts. Nothing new to learn."
+            "b": "Counts first, like any dashboard. Nothing new to learn."
           },
           "3": {
             "el": "k-sum",
@@ -102,7 +102,7 @@
           "4": {
             "el": "k-list",
             "t": "The next step is ready",
-            "b": "Every device arrives with its actions: approve or edit. The path forward is lit, and the person takes it."
+            "b": "Every item arrives with its actions: approve or edit. The path forward is lit, and the person takes it."
           }
         }
       }
@@ -129,7 +129,7 @@
           "principles": "Explainability · Care"
         }
       ],
-      "speaker_notes": "Expose capabilities and limits. It shows how it decided and how sure it is, and says it can make mistakes. It lets you start with one device instead of all 790. It asks before it reads your data, and says why. And it explains only what affects the decision: three checks, one result.",
+      "speaker_notes": "Expose capabilities and limits. It shows how it decided and how sure it is, and says it can make mistakes. It lets you start with one item instead of everything at once. It asks before it reads your data, and says why. And it explains only what affects the decision: three checks, one result.",
       "screens": "screens/p2.html",
       "mode": "states",
       "pins": {
@@ -141,7 +141,7 @@
         "2": {
           "el": "p2-one",
           "t": "Start small",
-          "b": "Each device has its own approve. Nobody has to say yes to all 790 at once."
+          "b": "Each item has its own approve. Nobody has to say yes to all of it at once."
         },
         "3": {
           "el": "p2-perm",
@@ -151,12 +151,12 @@
         "4": {
           "el": "p2-checks",
           "t": "Three checks, one result",
-          "b": "Site, coverage, contract. No model details, only what is needed to decide."
+          "b": "Three checks, shown plainly. No model details, only what is needed to decide."
         }
       },
       "captions": {
         "1": "Quick action: how it decided, and how sure it is.",
-        "2": "Review: try it on one device before all.",
+        "2": "Review: try it on one item before all.",
         "3": "Before it starts, it asks for your OK.",
         "4": "Result: only what affects the decision."
       }
@@ -183,7 +183,7 @@
           "principles": "Information & Respect · Appropriate Confidence"
         }
       ],
-      "speaker_notes": "Choose trust principles. For this product: transparency, control and proof. Before any summary it lists the six sources it fetched. Every number opens into the devices behind it. Nothing changes until a person approves. And the customer file is marked as an outside source.",
+      "speaker_notes": "Choose trust principles. For this product: transparency, control and proof. Before any summary it lists the six sources it fetched. Every number opens into the records behind it. Nothing changes until a person approves. And the outside file is marked as an outside source.",
       "screens": "screens/p3.html",
       "mode": "states",
       "pins": {
@@ -195,7 +195,7 @@
         "2": {
           "el": "p3-see",
           "t": "Check it yourself",
-          "b": "The details button opens the devices behind the number, so anyone can verify it."
+          "b": "The details button opens the records behind the number, so anyone can verify it."
         },
         "3": {
           "el": "p3-ok",
@@ -205,7 +205,7 @@
         "4": {
           "el": "p3-out",
           "t": "Proof from outside",
-          "b": "The customer file comes from outside the system, and it is marked that way."
+          "b": "The outside file comes from outside the system, and it is marked that way."
         }
       },
       "captions": {
@@ -237,18 +237,18 @@
           "principles": "Human Control · Reliability"
         }
       ],
-      "speaker_notes": "Localize behavior and tone. One agent, three sites, three different recommendations — and the stakes at each site decide how strong the advice is and how much it explains. New people get meaning and guidance; experts get one line and a bulk action. And work moves across slowly: high touch, low touch, zero touch. Contracts stay with people.",
+      "speaker_notes": "Localize behavior and tone. One agent, three contexts, three different recommendations — and the stakes in each context decide how strong the advice is and how much it explains. New people get meaning and guidance; experts get one line and a bulk action. And work moves across slowly: high touch, low touch, zero touch. High-stakes work stays with people.",
       "screens": "screens/p4.html",
       "mode": "states",
       "pins": {
         "1": {
           "el": "p4-tiles",
           "t": "Same request, different advice",
-          "b": "One agent, three clients. It looks at each site and how it runs, then recommends, with the reason beside it."
+          "b": "One agent, three clients. It looks at each context and how it runs, then recommends, with the reason beside it."
         },
         "2": {
           "el": "p4-hi",
-          "t": "The site sets the stakes",
+          "t": "The context sets the stakes",
           "b": "High stakes means more checks and more reasons. Low stakes gets one line and a quick action."
         },
         "3": {
@@ -259,7 +259,7 @@
         "4": {
           "el": "p4-ladder",
           "t": "Start small, then widen",
-          "b": "Tasks move from you decide, to you confirm, to handled for you as trust grows. Contracts stay with people."
+          "b": "Tasks move from you decide, to you confirm, to handled for you as trust grows. High-stakes work stays with people."
         }
       },
       "captions": {
